@@ -1,0 +1,32 @@
+h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+#generateArray{
+    font-family: 'Roboto Mono', monospace;
+    background-color: aquamarine;
+    box-shadow: none;
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+}
+
+#arrayContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.array-element {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #008CBA;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #E6F7FF;
+    color: #0A1929;
+    font-weight: bold;
+}
