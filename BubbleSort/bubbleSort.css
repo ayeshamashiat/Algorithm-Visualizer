@@ -3,6 +3,10 @@ h1{
     text-align: center;
 }
 
+body{
+    background-color: #CCCCFF;
+}
+
 #generateArray{
     font-family: 'Roboto Mono', monospace;
     background-color: aquamarine;
@@ -10,6 +14,14 @@ h1{
     border-radius: 15px;
     border-top: none;
     border-left: none;
+    margin: 25px;
+    box-shadow: #0A1929;
+
+}
+
+#generateArray:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease;
 }
 
 #arrayContainer {

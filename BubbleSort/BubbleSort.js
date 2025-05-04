@@ -38,7 +38,6 @@ function displayArray(arr) {
     const arrayContainer = document.getElementById('arrayContainer');
     arrayContainer.innerHTML = '';
     
-    // Create boxes for each array element
     arr.forEach((value) => {
         const box = document.createElement('div');
         box.className = 'array-element';
